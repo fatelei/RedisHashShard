@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/fatelei/redisshard",
   "dependencies": {
-    "hash-ring": "0.0.2"
+    "hash-ring": "0.0.2",
+    "redis": "*"
   },
   "devDependencies": {
     "mocha": "*"
