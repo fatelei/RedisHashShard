@@ -1,0 +1,30 @@
+{
+  "name": "redisshard",
+  "version": "0.0.1",
+  "description": "Redis shard, include mod shard and hash shard",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fatelei/redisshard.git"
+  },
+  "keywords": [
+    "redis",
+    "shard",
+    "algorithm"
+  ],
+  "author": "fatelei@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatelei/redisshard/issues"
+  },
+  "homepage": "https://github.com/fatelei/redisshard",
+  "dependencies": {
+    "hash-ring": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
