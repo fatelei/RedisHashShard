@@ -1,0 +1,28 @@
+{
+  "name": "redis-hash-shard",
+  "version": "1.0.0",
+  "description": "redis hash shard",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatelei/RedisHashShard.git"
+  },
+  "keywords": [
+    "hash",
+    "shard"
+  ],
+  "author": "fatelei@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatelei/RedisHashShard/issues"
+  },
+  "homepage": "https://github.com/fatelei/RedisHashShard#readme",
+  "dependencies": {
+    "bluebird": "~3.0.5",
+    "hash-ring": "1.0.1",
+    "redis": "~2.3.0"
+  }
+}
