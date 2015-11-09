@@ -3,6 +3,8 @@ Redis Hash Shard
 
 Redis hash shard implement in JS, using consistent hashing algorithm.
 
+![Build Status](https://api.travis-ci.org/fatelei/RedisHashShard.svg)
+
 # Install
 
 ```
